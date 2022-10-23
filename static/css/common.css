@@ -136,6 +136,16 @@ input:-webkit-autofill {
   padding: 15px 0;
   font-size: 14px;
 }
+
+.footer-center{
+width: 680px; 
+text-align: center;
+}
+
+.footer-left{
+width: 680px; 
+}
+
 .footer a {
   text-decoration: underline;
   color: #000000;
