@@ -4,7 +4,7 @@ title: windows 定时执行重启sql service 使用文档
 categories: [Schtasks]
 ---
 
-**[sql-service 重启脚本 下载](sql-service 重启脚本.zip)**
+**[sql-service 重启脚本.zip 下载](sql-service 重启脚本.zip)**
 
 ### 脚本参数说明
 
