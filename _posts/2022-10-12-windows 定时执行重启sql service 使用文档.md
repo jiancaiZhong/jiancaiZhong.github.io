@@ -1,6 +1,6 @@
 ---
 layout: mypost
-title: **windows 定时执行重启sql service 使用文档**
+title: windows 定时执行重启sql service 使用文档
 categories: [Schtasks]
 ---
 
