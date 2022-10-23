@@ -58,4 +58,9 @@ links:
     url: https://www.google.cn/chrome/
   - title: ip Address
     url: https://www.ipaddress.com/
+  - title: Hello Windows
+    url: https://hellowindows.cn/
+  - title: MSDN
+    url: https://msdn.itellyou.cn/
+    target: '_blank'
   
