@@ -9,13 +9,22 @@ title: 留言板
 <title></title>
 </head>
 <body>
-<form id="content">
-	<input type="text" name="name" placeholder="输入你的姓名"/>       
-	<input type="email" name="_replyto" placeholder="输入你的邮箱"/>
-	<input type="button" value="发送" id="btn"/>
+<!-- modify this form HTML and place wherever you want your form -->
+<form action="https://formspree.io/f/mpznjvrr" method="POST">
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
 </form>
 </body>
-<script src="../static/jquery-3.6.1.min.js"></script>
+<!-- <script src="../static/jquery-3.6.1.min.js"></script> -->
+<!-- 
 <script>
 	$("#btn").on("click",function(){
 		var obj = $("#content").serialize();  
@@ -34,5 +43,6 @@ title: 留言板
 		});
 	})
 </script>
+ -->
 </html>
 
