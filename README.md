@@ -1,50 +1,6 @@
 # 介绍
 
-[![Language](https://img.shields.io/badge/Jekyll-Theme-blue)](https://github.com/TMaize/tmaize-blog)
-[![license](https://img.shields.io/github/license/TMaize/tmaize-blog)](https://github.com/TMaize/tmaize-blog)
-[![GitHub stars](https://img.shields.io/github/stars/TMaize/tmaize-blog?style=social)](https://github.com/TMaize/tmaize-blog)
-
-一款 jekyll 主题（[GitHub 地址](https://github.com/TMaize/tmaize-blog)），简洁纯净(主题资源请求<20KB)，未引入任何框架，秒开页面，支持自适应，支持全文检索，支持夜间模式
-
-你可以到[TMaize Blog](https://blog.tmaize.net/)查看主题效果，欢迎添加友链
-
-## 感谢
-
-[JetBrains](https://www.jetbrains.com/?from=tmaize-blog) 免费提供的开发工具[![JetBrains](./static/img/jetbrains.svg)](https://www.jetbrains.com/?from=tmaize-blog)
-
-[夜间模式代码高亮配色](https://github.com/mgyongyosi/OneDarkJekyll)
-
-# 本地运行
-
-一般提交到 github 过个几十秒就可以看到效果，如果你需要对在本地查看效果需要安装 ruby 环境和依赖
-
-windows 下推荐在 wsl 下装 ruby，直接一句`apt install build-essential ruby ruby-dev` 就行了
-
-```bash
-# linux下需要gcc
-
-# gem sources --add https://gems.ruby-china.com/
-# gem sources --remove https://rubygems.org/
-# gem sources --remove https://mirrors.aliyun.com/rubygems/
-# gem sources -l
-gem install bundler
-# bundle config mirror.https://rubygems.org https://gems.ruby-china.com
-bundle install
-```
-
-通过下面命令启动/编译项目
-
-```bash
-bundle exec jekyll serve --watch --host=127.0.0.1 --port=8080
-bundle exec jekyll build --destination=dist
-```
-
-如果需要替换代码高亮的样式可以通过下面的命令生成 css
-
-```bash
-rougify help style
-rougify style github > highlighting.css
-```
+简洁纯净的个人博客，未引入任何框架，秒开页面，支持自适应，支持全文检索，支持夜间模式
 
 # 项目配置
 
