@@ -23,7 +23,7 @@ baseurl: ''
 
 # 吐个槽地址，会在chat页面中重定向到该地址
 # tucaoUrl: https://support.qq.com/product/86335
-tucaoUrl: www.baidu.com
+
 
 # 菜单
 # 必填字段 title: '文本' url: '链接'
@@ -37,8 +37,8 @@ menu:
     url: /pages/search.html
   - title: 导航
     url: /pages/links.html
-  - title: 留言
-    url: /pages/chat.html
+  # - title: 留言
+    # url: /pages/chat.html
   - title: 关于
     url: /pages/about.html
 
