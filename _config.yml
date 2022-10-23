@@ -1,11 +1,11 @@
 encoding: utf-8
 
 # SEO相关信息
-title: TMaize Blog
-description: TMaize的个人博客
-keywords: TMaize,Blog,Java,Html,JavaScript
-author: TMaize
-footerText: 'Copyright © 2016 皖ICP备16016174号'
+title: jiancaiZhong Blog
+description: 钟健材的个人博客
+keywords: jiancaiZhong,Blog,Java,Html,JavaScript
+author: jiancaiZhong
+footerText: 'jiancaiZhong·Blog © 2022 zjc'
 
 # 这些不要动
 permalink: /posts/:year/:month/:day/:title.html
@@ -17,7 +17,8 @@ exclude: ['CNAME', 'README.md', 'LICENSE', '_site', 'dist', 'Gemfile', 'Gemfile.
 
 # 域名配置
 # baseurl配置,如果网站部署在根目录下的其他目录中，请设置为 /目录名
-domainUrl: 'https://blog.tmaize.net'
+# domainUrl: 'https://blog.tmaize.net'
+domainUrl: ''
 baseurl: ''
 
 # 吐个槽地址，会在chat页面中重定向到该地址
@@ -48,7 +49,7 @@ extClickEffect: true
 extAdsense: false
 
 # 数学公式支持，比较影响加载速度,不需要请设置为false
-extMath: false
+extMath: true
 
 # 友情链接
 links:
