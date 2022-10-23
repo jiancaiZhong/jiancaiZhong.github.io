@@ -9,40 +9,10 @@ title: 留言板
 <title></title>
 </head>
 <body>
-<!-- modify this form HTML and place wherever you want your form -->
-<form action="https://formspree.io/f/mpznjvrr" method="POST">
-  <label>
-    Your email:
-    <input type="email" name="email">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-  <!-- your other form fields go here -->
-  <button type="submit">Send</button>
+<form id="content">       
+	<input type="email" name="email" placeholder="输入你的邮箱"/>
+	<textarea name="message"></textarea>
+	 <button type="submit">留言</button>
 </form>
 </body>
-<!-- <script src="../static/jquery-3.6.1.min.js"></script> -->
-<!-- 
-<script>
-	$("#btn").on("click",function(){
-		var obj = $("#content").serialize();  
-		$.ajax({
-			type:"post",						
-			url:"https://formspree.io/f/mpznjvrr",
-			async:true,
-			data:obj,            									
-			dataType:"json",
-			success: res=>{
-				alert('邮件已发送!!!');
-			},
-			error:res=>{
-				alert("未知错误,发送失败");
-			}
-		});
-	})
-</script>
- -->
 </html>
-
