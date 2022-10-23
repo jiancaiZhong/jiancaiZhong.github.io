@@ -5,11 +5,8 @@ title: 关于我
 
 > Hello 陌生人，欢迎访问我的博客
 
-该博客托管于 GitHub Page。
 
-
-
-## 相关技能
+# 相关技能
 
 - 熟悉 JavaScript 语言， 熟练使用 Vue 全家桶,jQuery 等前端框架
 
@@ -23,7 +20,7 @@ title: 关于我
 
 - 能够使用 Git/SVN 对代码版本进行控制
 
-## 联系我
+# 联系我
 
 - QQ&nbsp;&nbsp;&nbsp;&nbsp;: 799549405
 - Email&nbsp;: 799540405@qq.com
