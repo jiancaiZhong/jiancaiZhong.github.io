@@ -1,10 +1,9 @@
 // 打印主题标识,请保留出处
-/*
 ;(function () {
   var style1 = 'background:#4BB596;color:#ffffff;border-radius: 2px;'
   var style2 = 'color:auto;'
-  var author = ' TMaize'
-  var github = ' https://github.com/TMaize/tmaize-blog'
+  var author = ' zjc'
+  //var github = ' https://github.com/TMaize/tmaize-blog'
   var build = ' ' + blog.buildAt.substr(0, 4)
   build += '/' + blog.buildAt.substr(4, 2)
   build += '/' + blog.buildAt.substr(6, 2)
@@ -12,10 +11,8 @@
   build += ':' + blog.buildAt.substr(10, 2)
   console.info('%c Author %c' + author, style1, style2)
   console.info('%c Build  %c' + build, style1, style2)
-  console.info('%c GitHub %c' + github, style1, style2)
+  //console.info('%c GitHub %c' + github, style1, style2)
 })()
-*/
-
 
 /**
  * 工具，允许多次onload不被覆盖
@@ -293,7 +290,7 @@ blog.addLoadEvent(function () {
   if (!document.querySelector('.page-post')) {
     return
   }
-  console.debug('init post img click event')
+  //console.debug('init post img click event')
   let imgMoveOrigin = null
   let restoreLock = false
   let imgArr = document.querySelectorAll('.page-post img')
