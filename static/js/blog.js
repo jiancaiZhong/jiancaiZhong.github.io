@@ -1,4 +1,5 @@
 // 打印主题标识,请保留出处
+/*
 ;(function () {
   var style1 = 'background:#4BB596;color:#ffffff;border-radius: 2px;'
   var style2 = 'color:auto;'
@@ -13,6 +14,8 @@
   console.info('%c Build  %c' + build, style1, style2)
   console.info('%c GitHub %c' + github, style1, style2)
 })()
+*/
+
 
 /**
  * 工具，允许多次onload不被覆盖
