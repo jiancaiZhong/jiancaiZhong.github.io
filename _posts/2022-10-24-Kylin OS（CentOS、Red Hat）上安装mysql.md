@@ -4,7 +4,7 @@ title: Kylin OS（CentOS、Red Hat）上安装mysql
 categories: [Kylin, mysql]
 ---
 
-> 麒麟系统和Red Hat、CentOS 基本通用
+> Kylin OS和Red Hat、CentOS 基本通用
 
 - **Kylin OS版本**
 
