@@ -1,7 +1,7 @@
 ---
 layout: mypost
-title: 麒麟OS安装ffmpeg
-categories: [麒麟, ffmpeg]
+title: Kylin OS安装ffmpeg
+categories: [Kylin, ffmpeg]
 ---
 
 

@@ -1,12 +1,12 @@
 ---
 layout: mypost
-title: 麒麟os（CentOS、Red Hat）上安装mysql
-categories: [麒麟, mysql]
+title: Kylin OS（CentOS、Red Hat）上安装mysql
+categories: [Kylin, mysql]
 ---
 
 > 麒麟系统和Red Hat、CentOS 基本通用
 
-- **麒麟系统版本**
+- **Kylin OS版本**
 
   ```bash
   Linux i-417EBD09 3.10.0-693.el7.x86_64 #1 SMP Thu Sep 14 15:11:35 CST 2017 x86_64 x86_64 x86_64 GNU/Linux
