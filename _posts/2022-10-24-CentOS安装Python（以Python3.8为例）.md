@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: CentOS安装Python（以Python3.8为例）
-categories: [CentOS, Python]
+categories: [Linux, Python]
 ---
 
 
