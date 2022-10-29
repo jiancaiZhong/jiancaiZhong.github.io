@@ -1,8 +1,8 @@
 encoding: utf-8
 
 # SEO相关信息
-title: 我材不废
-description: 我材不废
+title: 我材不废1
+description: 我材不废2
 keywords: jiancaiZhong,Blog,Java,Html,JavaScript
 author: jiancaiZhong
 footerText: 'jiancaiZhong·Blog © 2022 zjc'
@@ -13,7 +13,7 @@ kramdown:
   auto_ids: true
   input: GFM
   syntax_highlighter: rouge
-exclude: [ 'CNAME', 'README.md', 'LICENSE', '_site', 'dist', 'Gemfile', 'Gemfile.lock', 'blog.sh' ]
+exclude: ['CNAME', 'README.md', 'LICENSE', '_site', 'dist', 'Gemfile', 'Gemfile.lock', 'blog.sh']
 
 # 域名配置
 # baseurl配置,如果网站部署在根目录下的其他目录中，请设置为 /目录名
@@ -36,7 +36,7 @@ menu:
     url: /pages/search.html
   - title: 书签
     url: /pages/links.html
-    # - title: 留言
+  # - title: 留言
     # url: /pages/chat.html
   - title: 关于
     url: /pages/about.html
