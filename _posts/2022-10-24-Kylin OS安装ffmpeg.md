@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: Kylin OS安装ffmpeg
-categories: [Kylin, ffmpeg]
+categories: [Linux, ffmpeg]
 ---
 
 

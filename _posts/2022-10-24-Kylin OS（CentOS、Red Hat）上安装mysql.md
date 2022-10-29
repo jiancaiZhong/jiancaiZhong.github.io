@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: Kylin OS（CentOS、Red Hat）上安装mysql
-categories: [Kylin, mysql]
+categories: [Linux, mysql]
 ---
 
 > Kylin OS和Red Hat、CentOS 基本通用

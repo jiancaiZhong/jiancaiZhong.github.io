@@ -1,7 +1,7 @@
 ---
 layout: mypost
 title: Kylin OS安装docker
-categories: [Kylin, docker]
+categories: [Linux, docker]
 ---
 
 **查看版本号**
