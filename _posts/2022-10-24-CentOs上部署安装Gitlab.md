@@ -1,7 +1,7 @@
 ---
 layout: mypost
-title: CentOs上部署安装Gitlab
-categories: [CentOs, git, GitLab]
+title: CentOS上部署安装GitLab
+categories: [CentOS, git, GitLab]
 ---
 
 **安装环境**
