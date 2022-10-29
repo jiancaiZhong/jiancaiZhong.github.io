@@ -1,8 +1,8 @@
 encoding: utf-8
 
 # SEO相关信息
-title: jiancaiZhong Blog
-description: 钟健材的个人博客
+title: 我材不废
+description: 我材不废
 keywords: jiancaiZhong,Blog,Java,Html,JavaScript
 author: jiancaiZhong
 footerText: 'jiancaiZhong·Blog © 2022 zjc'
@@ -24,7 +24,6 @@ baseurl: ''
 # 吐个槽地址，会在chat页面中重定向到该地址
 # tucaoUrl: https://support.qq.com/product/86335
 
-
 # 菜单
 # 必填字段 title: '文本' url: '链接'
 # 可选字段 target: '_blank' 新页面打开 
@@ -43,7 +42,7 @@ menu:
     url: /pages/about.html
 
 # 点击页面文字冒出特效,不需要请设置为false
-extClickEffect: true
+extClickEffect: false
 
 # Google Adsense,不需要请设置为false
 # _includes/ext-adsense.html 里面修改为自己的配置
