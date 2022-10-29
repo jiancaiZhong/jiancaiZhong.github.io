@@ -1,7 +1,4 @@
----
-layout: mypost
-title: 留言板
----
+--- layout: mypost title: 留言板 ---
 <!doctype html>
 <html>
 <head>
@@ -9,22 +6,24 @@ title: 留言板
 <title></title>
 </head>
 <body>
-<form action="https://formspree.io/f/mpznjvrr" method="POST">
-	<table>
-		<tr>
-			<td align="left" width="30%" style="background-color: LightGray;">请输入你的邮箱：</td>
-			<td width="70%" style="background-color: whitesmoke;"><input type="email" name="email" style="width:458.6px; height:36px;"></td>
-		</tr>
-		<tr>
-			<td align="left" width="30%" style="background-color: LightGray;">请输入你的留言：</td>
-			<td width="70%" style="background-color: whitesmoke;"><textarea name="message" style="width: 100%; text-align: left; font: 22px; "></textarea></td>
-		</tr>
-		<tr>
-			<div style="float:right">
-				<td colspan="2"><button type="submit" align="right">留言</button></td>
-			</div>
-		</tr>
-	</table>  
-</form>
+	<form action="https://formspree.io/f/mpznjvrr" method="POST">
+		<table>
+			<tr>
+				<td align="left" width="30%" style="background-color: LightGray;">请输入你的邮箱：</td>
+				<td width="70%" style="background-color: whitesmoke;"><input
+					type="email" name="email" style="width: 458.6px; height: 36px;"></td>
+			</tr>
+			<tr>
+				<td align="left" width="30%" style="background-color: LightGray;">请输入你的留言：</td>
+				<td width="70%" style="background-color: whitesmoke;"><textarea
+						name="message" style="width: 100%; text-align: left; font: 22px;"></textarea></td>
+			</tr>
+			<tr>
+				<div style="float: right">
+					<td colspan="2"><button type="submit" align="right">留言</button></td>
+				</div>
+			</tr>
+		</table>
+	</form>
 </body>
 </html>
