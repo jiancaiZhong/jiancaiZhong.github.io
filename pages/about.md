@@ -7,5 +7,4 @@ title: 关于我
 
 ### 联系我
 
-- QQ&nbsp;&nbsp;&nbsp;&nbsp;: 799549405
-- Email&nbsp;: 799540405@qq.com
+- [Email&nbsp;](mailto:799540405@qq.com) 
