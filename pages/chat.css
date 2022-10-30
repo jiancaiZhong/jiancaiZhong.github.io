@@ -1,7 +1,13 @@
+/* 隐藏 Powered by */
 .vpower {
 	display: none;
 }
 
 .txt-right {
+	display: none;
+}
+
+/* 隐藏md图标 */
+.vicon {
 	display: none;
 }
