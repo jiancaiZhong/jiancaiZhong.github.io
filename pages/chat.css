@@ -1,3 +1,7 @@
-.vpower .txt-right {
+.vpower {
+	display: none;
+}
+
+.txt-right {
 	display: none;
 }
