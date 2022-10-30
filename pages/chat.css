@@ -8,6 +8,10 @@
 }
 
 /* 隐藏md图标 */
-.vcol .vcol-30 {
+.vcol {
+	display: none;
+}
+
+.vcol-30 {
 	display: none;
 }
