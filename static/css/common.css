@@ -200,3 +200,8 @@ width: 680px;
     font-size: 15px;
   }
 }
+
+.vpower .txt-right {
+  display: none;
+}
+
