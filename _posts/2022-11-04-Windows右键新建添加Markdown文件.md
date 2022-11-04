@@ -1,6 +1,6 @@
 ---
 layout: mypost
-title: Windows右键新建添加md文件
+title: Windows右键新建添加Markdown文件
 categories: [Windows]
 ---
 
