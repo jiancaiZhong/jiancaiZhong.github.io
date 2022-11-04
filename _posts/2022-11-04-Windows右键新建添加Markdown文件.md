@@ -4,8 +4,6 @@ title: Windows右键新建添加Markdown文件
 categories: [Windows]
 ---
 
-> Windows右键-新建 添加新建Markdown文件的快捷键
-
 新建文件，后缀名为`reg`，文件内容如下。
 
 ```bash
