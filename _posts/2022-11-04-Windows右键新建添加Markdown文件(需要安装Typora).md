@@ -1,10 +1,8 @@
 ---
 layout: mypost
-title: Windows右键新建添加Markdown文件
+title: Windows右键新建添加Markdown文件(需要安装Typora)
 categories: [Windows]
 ---
-
-> 需要安装Typora
 
 新建文件，后缀名为`reg`，文件内容如下。
 
