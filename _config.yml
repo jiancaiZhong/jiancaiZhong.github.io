@@ -5,7 +5,8 @@ title: 杂乱无章
 description: 杂乱无章
 keywords: jiancaiZhong,Blog,Java,Html,JavaScript
 author: jiancaiZhong
-footerText: 'jiancaiZhong·Blog © 2022 zjc'
+# footerText: 'jiancaiZhong·Blog © 2022 zjc'
+footerText: 'Lu Xun said Jiancai Zhong is the best.'
 
 # 这些不要动
 permalink: /posts/:year/:month/:day/:title.html
