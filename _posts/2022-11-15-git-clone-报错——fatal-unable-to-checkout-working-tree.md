@@ -1,0 +1,18 @@
+---
+layout: mypost
+title: git clone 报错——fatal: unable to checkout working tree
+categories: [git]
+---
+
+> 最近clone我的博客的时候发现**git clone**报 **fatal: unable to checkout working tree** 的错误。查了一下是文件路径包含了冒号（:），windows不支持的原因。解决方法如下，需要对 **git** 作以下配置：
+
+```bash
+# 忽略路径中的转义字符
+git config --global core.protectNTFS false
+# 禁用换行符转换
+git config --global core.autocrlf false
+# 中文文件名，乱码问题。设为false的话，就不会对0x80以上的字符进行quot
+git config --global core.quotepath false
+```
+
+![解决git克隆冒号的报错.png](解决git克隆冒号的报错.png)
