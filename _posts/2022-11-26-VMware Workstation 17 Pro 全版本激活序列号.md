@@ -69,4 +69,7 @@ JU090-6039P-08409-8J0QH-2YR7F
 4C21U-2KK9Q-M8130-4V2QH-CF810
 ```
 
+> 查看激活状态
+
 ![regit](regit.png)
+
