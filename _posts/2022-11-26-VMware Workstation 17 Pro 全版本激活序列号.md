@@ -1,10 +1,10 @@
----
+```
 layout: mypost
 title: VMware Workstation 17 Pro 全版本激活序列号
-categories: [tools]
----
+categories: [macOS]
+```
 
-**VMware Workstation   Pro 和 Player功能比对**
+**VMware Workstation   Pro 和 Player 功能比对**
 
 ![compare.png](compare.png)
 
@@ -50,16 +50,7 @@ NV48H-421LK-0CVFG-XA2W0-3WAL0
 
 > **VMware Fusion**（在Mac平台可能不如 parallels desktop）
 
-**VMware Fusion 13 Player 许可证**
-
-```
-MZ490-4DH40-H8000-6T1Q2-APKH0
-MG082-4T00K-M8968-Z9ANK-2Y000
-NU48H-45J0K-488C0-L91GP-872K4
-4Z402-0VJ8K-081Y9-938G6-27AJ0
-```
-
-**VMware Fusion 13 Pro 许可证**
+**VMware Fusion 13 Pro  许可证**
 
 ```
 4A4RR-813DK-M81A9-4U35H-06KND
@@ -67,6 +58,16 @@ NZ4RR-FTK5H-H81C1-Q30QH-1V2LA
 JU090-6039P-08409-8J0QH-2YR7F
 4Y09U-AJK97-089Z0-A3054-83KLA
 4C21U-2KK9Q-M8130-4V2QH-CF810
+
+```
+
+**VMware Fusion 13 Player 许可证**
+
+```
+MZ490-4DH40-H8000-6T1Q2-APKH0
+MG082-4T00K-M8968-Z9ANK-2Y000
+NU48H-45J0K-488C0-L91GP-872K4
+4Z402-0VJ8K-081Y9-938G6-27AJ0
 ```
 
 > 查看激活状态
