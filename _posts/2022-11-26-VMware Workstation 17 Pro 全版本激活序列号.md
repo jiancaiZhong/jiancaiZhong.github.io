@@ -1,8 +1,8 @@
-```
+---
 layout: mypost
 title: VMware Workstation 17 Pro 全版本激活序列号
-categories: [macOS]
-```
+categories: [VMware]
+---
 
 **VMware Workstation   Pro 和 Player 功能比对**
 
