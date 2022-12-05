@@ -38,3 +38,7 @@ hs_err_pid*
 
 # idea
 .idea/
+
+# 脚本
+*.sh
+/提交脚本/
