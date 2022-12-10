@@ -4,7 +4,9 @@ title: 用Virtualbox+CentOS+apache等搭建web开发环境
 categories: [Linux]
 ---
 
-> 在windows下搭建web环境一般都是用phpStudy之类的一键环境，但是项目最终还是部署在linux上面，无法做到真实的模拟环境。所以考虑用Virtualbox安装CentOS，在虚拟机中模拟，然后进行端口转发即可
+**前言**
+
+在windows下搭建web环境一般都是用phpStudy之类的一键环境，但是项目最终还是部署在linux上面，无法做到真实的模拟环境。所以考虑用Virtualbox安装CentOS，在虚拟机中模拟，然后进行端口转发即可
 
 **优点**
 
