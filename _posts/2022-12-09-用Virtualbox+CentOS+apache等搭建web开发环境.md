@@ -18,6 +18,8 @@ categories: [Linux]
 
 - 可以安装管理面板更加方便
 
+**正文**
+
 > 系统为CentOS 6.3 32bit
 
 ### 一、安装apache
