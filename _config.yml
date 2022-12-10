@@ -6,7 +6,7 @@ description: 杂乱无章
 keywords: jiancaiZhong,Blog,Java,Html,JavaScript
 author: jiancaiZhong
 # footerText: 'jiancaiZhong·Blog © 2022 zjc'
-footerText: '联系我: zhong@jiancai.email'
+footerText: "联系我: zhong@jiancai.email"
 
 # 这些不要动
 permalink: /posts/:year/:month/:day/:title.html
@@ -14,20 +14,30 @@ kramdown:
   auto_ids: true
   input: GFM
   syntax_highlighter: rouge
-exclude: ['CNAME', 'README.md', 'LICENSE', '_site', 'dist', 'Gemfile', 'Gemfile.lock', 'blog.sh']
+exclude:
+  [
+    "CNAME",
+    "README.md",
+    "LICENSE",
+    "_site",
+    "dist",
+    "Gemfile",
+    "Gemfile.lock",
+    "blog.sh",
+  ]
 
 # 域名配置
 # baseurl配置,如果网站部署在根目录下的其他目录中，请设置为 /目录名
 # domainUrl: 'https://blog.tmaize.net'
-domainUrl: ''
-baseurl: ''
+domainUrl: ""
+baseurl: ""
 
 # 吐个槽地址，会在chat页面中重定向到该地址
 # tucaoUrl: https://support.qq.com/product/86335
 
 # 菜单
 # 必填字段 title: '文本' url: '链接'
-# 可选字段 target: '_blank' 新页面打开 
+# 可选字段 target: '_blank' 新页面打开
 menu:
   - title: 首页
     url: /
@@ -84,4 +94,5 @@ links:
     url: https://developer.mozilla.org/en-US/docs/Learn
   - title: MDN(zh)
     url: https://developer.mozilla.org/zh-CN/docs/Learn
-  
+  - title: PowerToys
+    url: https://github.com/microsoft/PowerToys
