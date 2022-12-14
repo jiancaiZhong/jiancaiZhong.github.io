@@ -64,8 +64,6 @@ extMath: true
 
 # 友情链接
 links:
-  - title: Download Chrome
-    url: https://www.google.cn/chrome/
   - title: ip Address
     url: https://www.ipaddress.com/
   - title: Hello Windows
