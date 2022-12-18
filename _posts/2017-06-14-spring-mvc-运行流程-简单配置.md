@@ -221,7 +221,3 @@ public class ItemController implements Controller{
 访问[http://localhost:8080/springmvc/listItem](http://localhost:8080/springmvc/listItem)得到结果页面
 
 ![p05](05.jpg)
-
-## 参考
-
-[跟我学SpringMVC目录](http://jinnianshilongnian.iteye.com/blog/1752171)
