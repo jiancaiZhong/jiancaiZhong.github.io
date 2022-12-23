@@ -81,6 +81,7 @@ mysqld --install MySQL --defaults-file=D:\Program Files\mysql-5.7.26-winx64\my.i
 7. **修改密码**
 
 设置密码方法有两个，推荐第一个
+
 方法一：
 
 ```mysql
