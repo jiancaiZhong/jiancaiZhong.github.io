@@ -4,7 +4,7 @@ title: eclipse 安装 jdk api
 categories: [eclipse]
 ---
 
-1.下载  **Java SE Development Kit 8 Documentation** 文档，][点击下载](https://www.oracle.com/java/technologies/javase-jdk8-doc-downloads.html)
+1.下载  **Java SE Development Kit 8 Documentation** 文档，[点击下载](https://www.oracle.com/java/technologies/javase-jdk8-doc-downloads.html)
 
 ![Snipaste_2023-01-15_16-31-15.png](Snipaste_2023-01-15_16-31-15.png)
 
