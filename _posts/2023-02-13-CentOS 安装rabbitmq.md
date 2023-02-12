@@ -43,6 +43,8 @@ $ source /etc/profile
 $ wget https://ghproxy.com/github.com/rabbitmq/rabbitmq-server/releases/download/v3.9.13/rabbitmq-server-generic-unix-3.9.13.tar.xz
 ```
 
+注意：如果下在慢可以使用代理或者windows下载后上传到CentOS
+
 ### 五、安装rabbitmq
 
 ```shell
