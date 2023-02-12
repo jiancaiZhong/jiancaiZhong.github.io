@@ -6,7 +6,7 @@ categories: [Linux]
 
 > 本次安装目录在 `/usr/local/redis` 中，安装文件也下载在这里
 
-#### 下载
+#### 一、下载
 
 进入安装目录 `/usr/local/redis ` 中进行下载源码：
 
@@ -14,26 +14,26 @@ categories: [Linux]
 $ wget http://download.redis.io/releases/redis-4.0.2.tar.gz
 ```
 
-#### 解压
+#### 二、解压
 
 ```shell
 $ tar -zxvf redis-4.0.2.tar.gz 
 ```
 
-#### 进入解压目录
+#### 三、进入解压目录
 
 ```shell
 $ cd redis-4.0.2
 ```
 
-#### 编译安装
+#### 四、编译安装
 
 ```shell
 $ make
 $ make install
 ```
 
-#### 修改配置
+#### 五、修改配置
 
 进入到redis源码文件夹`/usr/local/redis/redis-4.0.2`
 
@@ -42,13 +42,13 @@ $ /usr/local/redis/redis-4.0.2
 $ vim redis.conf
 ```
 
-##### 后台启动
+##### 5.1、后台启动
 
 ```
 把daemonize no 替换成 daemonize yes
 ```
 
-##### 监听ip
+##### 5.2、监听ip
 
 注释掉监听ip，则监听所有ip
 
@@ -56,7 +56,7 @@ $ vim redis.conf
 # bind 127.0.0.1
 ```
 
-#### 启动
+#### 六、启动
 
 启动文件在`/usr/local/bin`，使用命令`cd /usr/local/bin` 进入到该文件夹下运行 `redis-server` 则可以启动**redis**，此时是非后台进程启动，后台进程启动命令：
 
@@ -64,9 +64,9 @@ $ vim redis.conf
 $ ./redis-server &
 ```
 
-#### 配置文件参数说明
+#### 七、配置文件参数说明
 
-```tex
+```text
 daemonize：如需要在后台运行，把该项的值改为yes
  
 pdifile：把pid文件放在/var/run/redis.pid，可以配置到其他地址
@@ -117,4 +117,3 @@ vm_pages：设置交换文件的总的page数量
  
 vm_max_thrrads：设置vm IO同时使用的线程数量
 ```
-
