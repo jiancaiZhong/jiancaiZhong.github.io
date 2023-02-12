@@ -27,7 +27,7 @@ root@localhost ~
 
 > [官网](https://ohmyz.sh/#install)
 
-安装方法
+安装方法：直接运行以下脚本
 
 ```shell
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
