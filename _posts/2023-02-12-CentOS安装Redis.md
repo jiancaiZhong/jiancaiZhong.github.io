@@ -5,6 +5,8 @@ categories: [Linux]
 ---
 
 > 本次安装目录在 `/usr/local/redis` 中，安装文件也下载在这里
+>
+> 宿主机版本号 CentOS 3.10.0-1160.83.1.el7.x86_64
 
 #### 一、下载
 
