@@ -73,6 +73,8 @@ links:
     url: https://msdn.itellyou.cn/
   - title: 阿里云云效 Maven
     url: https://developer.aliyun.com/mvn/guide
+  - title: maven 中央仓库
+    url: https://mvnrepository.com/
   - title: 软件安装管家
     url: https://rjazgj.com
   - title: Echarts
