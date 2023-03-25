@@ -1,58 +1,45 @@
-{%- assign buildAt = site.time | date: "%Y%m%d%H%M%S" -%}
 <head>
-  <title>{{ page.title }}|{{ site.title }}</title>
-  <meta charset="utf-8" />
-  <meta http-equiv="content-language" content="zh-CN" />
-  <meta name="theme-color" content="#ffffff" />
-  <meta name="supported-color-schemes" content="light dark">
-  <meta name="renderer" content="webkit">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="applicable-device" content="pc,mobile">
-  <meta name="author" content="{{ site.author }}" />
-  {%- if page.categories %}
-  <meta name="description" content="{{ page.title }}"/>
-  <meta name="keywords" content="{{ site.author }}{% for category in page.categories %},{{ category }}{% endfor %}"/>
-  {% else %}
-  <meta name="description" content="{{ site.description }}"/>
-  <meta name="keywords" content="{{ site.keywords }}"/>
-  {% endif -%}
-  <link rel="icon" href="{{site.baseurl}}/static/img/favicon.ico" />
-  <link rel="apple-touch-icon" href="{{site.baseurl}}/static/img/logo.png" />
-  <link rel="stylesheet" href="{{site.baseurl}}/static/css/common.css?t={{buildAt}}">
-  <link rel="stylesheet" href="{{site.baseurl}}/static/css/theme-dark.css?t={{buildAt}}">
-  {%- if page.layout == "mypost" %}
-  <link rel="stylesheet" href="{{site.baseurl}}/static/css/post.css?t={{buildAt}}">
-  <link rel="stylesheet" href="{{site.baseurl}}/static/css/code-dark.css?t={{buildAt}}">
-  <link rel="stylesheet" href="{{site.baseurl}}/static/css/code-light.css?t={{buildAt}}">
-  {%- endif %}
-  {%- if page.layout == "page" %}
-  <link rel="stylesheet" href="{{site.baseurl}}/static/css/page.css?t={{buildAt}}">
-  {%- endif %}
-  <link rel="prefetch" href="{{site.baseurl}}/static/xml/search.xml?t={{ buildAt }}">
-  <link rel="prefetch" href="{{site.baseurl}}/static/js/search.js?t={{ buildAt }}">
-  <script>
-    window.blog = {
-      baseurl:"{{site.baseurl}}",
-      buildAt:"{{buildAt}}",
-      darkTheme: false,
-      setDarkTheme: function (dark) {
-        this.darkTheme = Boolean(dark);
-        document.documentElement.className = this.darkTheme ? 'dark': '';
-        document.querySelector('meta[name=theme-color]').setAttribute('content', this.darkTheme ? '#2D2E32': '#FFFFFF');
-      }
-    }
-    if (sessionStorage.darkTheme !== undefined) {
-      blog.setDarkTheme(sessionStorage.darkTheme === 'true'); // 记忆值，单个窗口内有效
-    } else {
-      blog.setDarkTheme(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches); // 跟随系统
-    }
-    if (window.matchMedia) {
-      var media = window.matchMedia('(prefers-color-scheme: dark)');
-      media.addListener(function (ev) {
-        blog.setDarkTheme(ev.currentTarget.matches);
-        sessionStorage.removeItem('darkTheme');
-      });
-    }
-  </script>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+   <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+   <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+
+
+  <link rel="shortcut icon" href="{{ site.basurl }}/favicon.ico?" type="image/x-icon">
+<link rel="icon" href="{{ site.baseurl }}/favicon.ico?" type="image/x-icon">
+
+    <meta name="description" content="{{ site.description }}">
+
+    <title>{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+
+<!-- CSS -->
+	
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/galleries.css" | prepend: site.baseurl }}">
+     <link rel="stylesheet" href="{{ "/css/super-search.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/magnificpopup.css" | prepend: site.baseurl }}">
+
+    <!-- Custom Fonts -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,600&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+
 </head>
