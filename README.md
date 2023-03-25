@@ -1,32 +1,103 @@
-**[介绍](pages/about.md)**
+# Jekyll Serif Theme
 
-极简的博客风格，点击头像切换到夜间模式。
+Serif is a modern business theme for Jekyll. It contains multiple content types for a typical brochure/marketing website. The theme is fully responsive, blazing fast and artfully illustrated.
 
-**配置**
+[Live Demo](https://jekyll-serif.netlify.app/) |
+[Zerostatic Themes](https://www.zerostatic.io)
 
-1. 如果使用自己的域名，`CNAME`文件里的内容请换成你自己的域名，然后 CNAME 解析到`用户名.github.com`
+<a href="https://www.buymeacoffee.com/zerostatic" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
 
-2. 如果使用 GitHub 的的域名，请删除`CNAME`文件,然后把你的项目修改为`用户名.github.io`
+![Jekyll Serif Theme screenshot](https://www.zerostatic.io/theme/jekyll-serif/jekyll-serif-screenshot.png)
 
-3. 修改`pages/about.md`中关于我的内容
+### Theme features
 
-4. 修改`_config.yml`文件，具体作用请参考注释
+- Jekyll 4.2+
+- Netlify & Github Pages ready
+- Services (Collection)
+- Team (Collection)
+- Features (Data)
+- SCSS
+- 100% Responsive design, animated hamburger and mobile slide in menu
+- Bootstrap 4.6 - _Only the bootstrap grid and utilites are imported by default. If you want to use more of the Boostrap library you can uncomment the `@import` in `style.scss`_
+- 100/100 Google Lighthouse speed score
+- 100/100 Google Lighthouse seo score
+- 100/100 Google Lighthouse accessibility score
+- 100/100 Google Lighthouse best practices score
+- Under 50KB without images or 80KB with images and illustrations ⚡
+- Under 20KB without Google fonts ⚡⚡⚡
+- Robust example content included
+- Royalty free illustrations included
 
-5. 清空`post _posts`目录下所有文件，注意是清空，不是删除这两个目录
+## Installation
 
-6. 网站的 logo 和 favicon 放在了`static/img/`下，替换即可，大小无所谓，图片比例最好是 1:1
+### Installing Ruby & Jekyll
 
-**使用**
+If this is your first time using Jekyll, please follow the [Jekyll docs](https://jekyllrb.com/docs/installation/) and make sure your local environment (including Ruby) is setup correctly.
 
-文章放在`_posts`目录下，命名为`yyyy-MM-dd-xxxx-xxxx.md`，内容格式如下
+### Installing Theme
 
-```yaml
----
-layout: mypost
-title: 标题
-categories: [分类1, 分类2]
----
-文章内容，Markdown格式
+Download or clone the theme.
+
+To run the theme locally, navigate to the theme directory and run:
+
+```
+bundle install
 ```
 
-文章资源放在`posts`目录，如文章文件名是`2019-05-01-theme-usage.md`，则该篇文章的资源需要放在`posts/2019/05/01`下。
+To start the Jekyll local development server.
+
+```
+bundle exec jekyll serve
+```
+
+To build the theme.
+
+```
+bundle exec jekyll build
+```
+
+## Deployment
+
+### Netlify
+
+Use Netlify to deploy this theme. This theme contains a valid and tested `netlify.toml` - Feel free to use the 1-click deploy below.
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/zerostaticthemes/jekyll-serif-theme)
+
+### Github Pages
+
+This theme has been tested to work with Github Pages (and Github Project Pages). When using Github Pages you will need to update the `baseurl` in the `_config.yml` otherwise all the css, images and paths will be broken.
+
+For example the site https://zerostaticthemes.github.io/jekyll-serif-theme would have `baseurl: "/jekyll-serif-theme/"`
+
+## Extras
+
+### License
+
+- You cannot create ports of this theme
+- You cannot re-sell this theme
+
+### Credits
+
+- Beautiful royalty free Illustrations by Icons8 - https://icons8.com/illustrations/style--pixeltrue
+- Stock images by Unsplash - https://unsplash.com/
+- Feature icons by Noun Project - https://thenounproject.com/
+
+## Support My Work
+
+I've been building open source themes for all the main static site generators for over 4 years now. My premium themes allow me to continue to allocate time to maintain, improve and build new open source themes.
+
+1. Leave a star ⭐🙏🏻
+2. Make a contribution to this theme, add a feature, fix a bug, nothing is to small 
+2. Mention this theme on twitter [@zerostaticio](https://twitter.com/zerostaticio) 📢
+3. Purchase a premium theme 🔥
+
+### All Jekyll Themes by Zerostatic
+
+- [Jekyll Serif (Open Source)](https://www.zerostatic.io/theme/jekyll-serif/)
+- [Jekyll Atlantic (Open Source)](https://www.zerostatic.io/theme/jekyll-atlantic/)
+- [Jekyll Advance (Premium)](https://www.zerostatic.io/theme/jekyll-advance/)
+- [Jekyll Origin (Premium)](https://www.zerostatic.io/theme/jekyll-origin/)
+- [Jekyll Curate (Premium)](https://www.zerostatic.io/theme/jekyll-curate/)
+
+🇦🇺 **Made in Australia** by Robert Austin
