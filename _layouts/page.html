@@ -1,10 +1,15 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
-{% include head.html -%}
-<body ondragstart="return false;">
-{% include header.html -%}
-{{ content }}
-{% include footer.html -%}
-{% include script.html -%}
-</body>
-</html>
+---
+layout: default
+---
+
+<article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title | escape }}</h1>
+  </header>
+
+  <div class="post-content">
+    {{ content }}
+  </div>
+
+</article>

@@ -1,58 +1,48 @@
-{%- assign buildAt = site.time | date: "%Y%m%d%H%M%S" -%}
-<head>
-  <title>{{ page.title }}|{{ site.title }}</title>
-  <meta charset="utf-8" />
-  <meta http-equiv="content-language" content="zh-CN" />
-  <meta name="theme-color" content="#ffffff" />
-  <meta name="supported-color-schemes" content="light dark">
-  <meta name="renderer" content="webkit">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="applicable-device" content="pc,mobile">
-  <meta name="author" content="{{ site.author }}" />
-  {%- if page.categories %}
-  <meta name="description" content="{{ page.title }}"/>
-  <meta name="keywords" content="{{ site.author }}{% for category in page.categories %},{{ category }}{% endfor %}"/>
-  {% else %}
-  <meta name="description" content="{{ site.description }}"/>
-  <meta name="keywords" content="{{ site.keywords }}"/>
-  {% endif -%}
-  <link rel="icon" href="{{site.baseurl}}/static/img/favicon.ico" />
-  <link rel="apple-touch-icon" href="{{site.baseurl}}/static/img/logo.png" />
-  <link rel="stylesheet" href="{{site.baseurl}}/static/css/common.css?t={{buildAt}}">
-  <link rel="stylesheet" href="{{site.baseurl}}/static/css/theme-dark.css?t={{buildAt}}">
-  {%- if page.layout == "mypost" %}
-  <link rel="stylesheet" href="{{site.baseurl}}/static/css/post.css?t={{buildAt}}">
-  <link rel="stylesheet" href="{{site.baseurl}}/static/css/code-dark.css?t={{buildAt}}">
-  <link rel="stylesheet" href="{{site.baseurl}}/static/css/code-light.css?t={{buildAt}}">
-  {%- endif %}
-  {%- if page.layout == "page" %}
-  <link rel="stylesheet" href="{{site.baseurl}}/static/css/page.css?t={{buildAt}}">
-  {%- endif %}
-  <link rel="prefetch" href="{{site.baseurl}}/static/xml/search.xml?t={{ buildAt }}">
-  <link rel="prefetch" href="{{site.baseurl}}/static/js/search.js?t={{ buildAt }}">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+{% seo %}
+
+{% feed_meta %}
+
+{% if jekyll.environment == 'production' and site.google_analytics %}
+  {% include google-analytics.html %}
+{% endif %}
+
+{% if page.math %}
+  {% include mathjax.html %}
+{% endif %}
+
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open%20Sans|Roboto|Roboto%20Slab|Inconsolata|Dancing%20Script|Noto%20Sans%20SC|Noto%20Sans%20TC|Noto%20Serif%20SC|Noto%20Serif%20TC|Ma%20Shan%20Zheng">
+
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/skin.css' | relative_url }}">
+
+<!-- Begin selecting skin -->
+{% unless site.skin %}
   <script>
-    window.blog = {
-      baseurl:"{{site.baseurl}}",
-      buildAt:"{{buildAt}}",
-      darkTheme: false,
-      setDarkTheme: function (dark) {
-        this.darkTheme = Boolean(dark);
-        document.documentElement.className = this.darkTheme ? 'dark': '';
-        document.querySelector('meta[name=theme-color]').setAttribute('content', this.darkTheme ? '#2D2E32': '#FFFFFF');
-      }
-    }
-    if (sessionStorage.darkTheme !== undefined) {
-      blog.setDarkTheme(sessionStorage.darkTheme === 'true'); // 记忆值，单个窗口内有效
+    const hour = (new Date()).getHours();
+    let filename = "";
+    if (hour >= 5 && hour < 7) {
+      filename = "{{ '/assets/css/skin-sunrise.css' | relative_url }}";
+    } else if (hour >= 7 && hour < 17) {
+      filename = "{{ '/assets/css/skin-daylight.css' | relative_url }}";
+    } else if (hour >= 17 && hour < 19) {
+      filename = "{{ '/assets/css/skin-sunset.css' | relative_url }}";
     } else {
-      blog.setDarkTheme(window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches); // 跟随系统
+      filename = "{{ '/assets/css/skin-midnight.css' | relative_url }}";
     }
-    if (window.matchMedia) {
-      var media = window.matchMedia('(prefers-color-scheme: dark)');
-      media.addListener(function (ev) {
-        blog.setDarkTheme(ev.currentTarget.matches);
-        sessionStorage.removeItem('darkTheme');
-      });
-    }
+    const elem = document.createElement("link");
+    elem.setAttribute("rel", "stylesheet");
+    elem.setAttribute("type", "text/css");
+    elem.setAttribute("href", filename);
+    document.getElementsByTagName("head")[0].appendChild(elem);
   </script>
-</head>
+{% endunless %}
+<!-- End selecting skin -->
+
+<script async src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
+
+{% include custom-head.html %}
