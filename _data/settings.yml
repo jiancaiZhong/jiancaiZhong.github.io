@@ -7,10 +7,10 @@ disqus:
 # google-ID: 'UA-112060364-2'
 
 menu:
-- {name: 'Interesting Facts',  url: 'facts'}
-- {name: 'Learning Resources', url: 'resources'}
-- {name: 'Sample Posts',       url: 'sample-posts'}
-- {name: 'Documentation',      url: 'documentation'}
+- {name: '人文摄影',  url: 'facts'}
+- {name: '人像摄影', url: 'resources'}
+- {name: '风光摄影',       url: 'sample-posts'}
+- {name: '静物摄影',      url: 'documentation'}
 - {name: '关于我',              url: 'about'}
 - {name: '联系我',            url: 'contact'}
 
