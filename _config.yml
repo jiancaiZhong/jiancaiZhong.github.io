@@ -7,6 +7,6 @@ permalink:           /:title
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
 # Customise atom feed settings (this is where Jekyll-Feed gets configuration information)
-title:		           "胡乱拍摄"
-description:	       "我的胡乱拍摄，学习摄影的路还好长，希望大家一起见证我的进步！"
+title:		           "胡乱"
+description:	       "拍摄"
 author:              "Jiancai Zhong"
