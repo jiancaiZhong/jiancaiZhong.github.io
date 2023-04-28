@@ -65,6 +65,8 @@ extMath: true
 
 # 友情链接
 links:
+  - title: spring Initializr
+    url: https://start.spring.io/
   - title: ip Address
     url: https://www.ipaddress.com/
   - title: Hello Windows
