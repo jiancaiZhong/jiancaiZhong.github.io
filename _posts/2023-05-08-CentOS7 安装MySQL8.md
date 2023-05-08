@@ -54,7 +54,7 @@ alter user 'root'@'localhost' identified by '这里填你要的密码';
 #### 配置远程连接授权设置（改表法）
 
 ```mysql
-mysql>use mysql;
-mysql>update user  set host = '%' where user = 'root';
-mysql>select host,  user from user;
+use mysql;
+update user  set host = '%' where user = 'root';
+select host,  user from user;
 ```
