@@ -1,6 +1,6 @@
 ---
 layout: mypost
-title: CentOS7 安装 mysql
+title: CentOS7 安装 MySQL8
 categories: [Linux,MySQL]
 ---
 
