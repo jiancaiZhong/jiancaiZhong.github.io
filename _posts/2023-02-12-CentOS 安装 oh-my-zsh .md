@@ -90,4 +90,4 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ~/.oh-my-zsh/
 
 ### 主题
 
-**oh-my-zsh** 的配置文件在 **~/.zshrc**，使用命令`vim ~/。zshrc` 修改 **ZSH_THEME="bureau"**，其中 **bureau** 为主题，还有很多主题请自行百度，在 **GitHub**上可以预览 [oh-my-zsh 主题](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes)
+**oh-my-zsh** 的配置文件在 **~/.zshrc**，使用命令`vim ~/.zshrc` 修改 **ZSH_THEME="bureau"**，其中 **bureau** 为主题，还有很多主题请自行百度，在 **GitHub**上可以预览 [oh-my-zsh 主题](https://github.com/ohmyzsh/ohmyzsh/wiki/Themes)
