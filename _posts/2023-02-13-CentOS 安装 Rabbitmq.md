@@ -5,7 +5,7 @@ categories: [Linux]
 ---
 
 > 宿主机版本号 CentOS 3.10.0-1160.83.1.el7.x86_64
->
+> 
 > 由于rabbitmq是基于erlang语言开发的，所以必须先安装erlang
 
 ### 一、安装依赖
@@ -69,7 +69,7 @@ $ rabbitmq-server -detached
 #### 6.2 状态检查
 
 ```shell
-$ rabbitmq-server -detached
+$ rabbitmq-server -status
 ```
 
 #### 6.3 开启webui
@@ -78,7 +78,7 @@ $ rabbitmq-server -detached
 $ rabbitmq-plugins enable rabbitmq_management
 ```
 
-####  6.4 访问
+#### 6.4 访问
 
 ```
 localhost:15672
@@ -101,4 +101,3 @@ $ rabbitmqctl set_user_tags username administrator
 ```shell
 $ rabbitmqctl set_permissions -p / username ".*" ".*" ".*"
 ```
-
