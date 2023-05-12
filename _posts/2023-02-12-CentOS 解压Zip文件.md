@@ -4,7 +4,7 @@ title: CentOS 解压Zip文件
 categories: [Linux]
 ---
 
-> 宿主机版本号 CentOS 3.10.0-1160.83.1.el7.x86_64
+> - 宿主机版本号 CentOS 3.10.0-1160.83.1.el7.x86_64
 
 ### 安装支持ZIP的工具
 

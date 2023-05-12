@@ -4,8 +4,9 @@ title: CentOS7 安装 MySQL8
 categories: [Linux,MySQL]
 ---
 
-> 宿主机版本号 CentOS 3.10.0-1160.83.1.el7.x86_64
-> MySQL版本：MySQL8
+> - 宿主机版本号 CentOS 3.10.0-1160.83.1.el7.x86_64
+> 
+> - MySQL版本：MySQL8
 
 ### 安装MySQL8
 

@@ -4,9 +4,9 @@ title: CentOS 安装 rabbitmq
 categories: [Linux]
 ---
 
-> 宿主机版本号 CentOS 3.10.0-1160.83.1.el7.x86_64
+> - 宿主机版本号 CentOS 3.10.0-1160.83.1.el7.x86_64
 > 
-> 由于rabbitmq是基于erlang语言开发的，所以必须先安装erlang
+> - 由于rabbitmq是基于erlang语言开发的，所以必须先安装erlang
 
 ### 一、安装依赖
 
