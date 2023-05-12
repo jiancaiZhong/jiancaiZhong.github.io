@@ -5,7 +5,7 @@ categories: [Linux]
 ---
 
 > **zsh**也是一种 **shell**，兼容最常用的 **bash** 这种 **shell** 的命令和操作，**bash** 虽然很标准，但是自己日常使用方便更重要。**oh-my-zsh** 提供了丰富的插件
->
+> 
 > 宿主机版本号 CentOS 3.10.0-1160.83.1.el7.x86_64
 
 ### 安装
@@ -23,7 +23,7 @@ root@localhost ~
 /bin/csh
 ```
 
-如果没有就使用命令安装 `sudo apt-get install -y zs` 安装
+> 安装 **oh-my-zsh** 需要先安装 `zsh` , 如果没有就使用命令 `sudo yum install -y zsh` 安装 `zsh`
 
 ### 官网安装
 
