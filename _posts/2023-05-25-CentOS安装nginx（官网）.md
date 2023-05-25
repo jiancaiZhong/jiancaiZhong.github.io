@@ -4,7 +4,7 @@ title: CentOS安装nginx（官网）
 categories: [Linux,nginx]
 ---
 
-> 本次安装方法是从[官网]([nginx: Linux packages](http://nginx.org/en/linux_packages.html#RHEL))搬运的
+> 本次安装方法是从[官网](http://nginx.org/en/linux_packages.html#RHEL)搬运的
 
 ### 安装依赖
 
