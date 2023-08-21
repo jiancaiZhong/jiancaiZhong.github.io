@@ -1,6 +1,6 @@
 ---
 layout: mypost
-title: Kylin OS（CentOS、Red Hat）上安装mysql
+title: Kylin OS（CentOS、Red Hat）上安装mysql 5.7x
 categories: [Linux, MySQL]
 ---
 
