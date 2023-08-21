@@ -104,7 +104,7 @@ categories: [Linux, MySQL]
   
     ![login-mysql](login-mysql.png)
   
-  - **修改临时密码**（Gzlry@6789923Hk）
+  - **修改临时密码**
   
     ```mysql
     mysql> use mysql;
